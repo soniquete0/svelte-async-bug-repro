@@ -7,6 +7,7 @@
 	const items = await getData();
 
 	let checked = $state(false);
+    $inspect(checked)
 </script>
 
 <h1>Test Page</h1>
